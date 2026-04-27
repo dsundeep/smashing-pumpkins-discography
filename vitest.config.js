@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/smashing-pumpkins-discography/',
   test: {
     environment: 'jsdom',
     setupFiles: ['./tests/setupTests.js'],
