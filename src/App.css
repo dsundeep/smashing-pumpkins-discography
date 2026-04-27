@@ -1,0 +1,14 @@
+.app-layout {
+  width: min(900px, 100% - 2rem);
+  margin: 0 auto;
+  padding: 2rem 0 3rem;
+}
+
+.app-nav {
+  margin-bottom: 1.5rem;
+}
+
+.app-nav h1 {
+  margin: 0;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}

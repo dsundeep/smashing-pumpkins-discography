@@ -1,0 +1,26 @@
+.cover-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.cover-card img {
+  width: 72px;
+  height: 72px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #eceff3;
+  flex-shrink: 0;
+}
+
+.cover-card-content h2 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.cover-card-content p {
+  margin-top: 0.3rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

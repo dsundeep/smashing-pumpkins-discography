@@ -1,0 +1,57 @@
+.albums-page {
+  display: grid;
+  gap: 1rem;
+}
+
+.albums-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.albums-list-rows {
+  grid-template-columns: 1fr;
+}
+
+.albums-list-cards {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.albums-list-item {
+  min-width: 0;
+  display: flex;
+}
+
+.albums-link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
+}
+
+.albums-link-button {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .albums-controls {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 560px) {
+  .albums-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .albums-pagination {
+    flex-wrap: wrap;
+  }
+}
